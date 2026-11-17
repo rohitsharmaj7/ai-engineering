@@ -1,0 +1,11 @@
+//intialing a new folder
+uv init "folder_name_here"
+
+//creating the venv
+uv venv --python 3.11
+
+//activating the venv
+.venv\Scripts\activate
+
+//adding packages in venv
+uv add groq python-doten
